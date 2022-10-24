@@ -1,0 +1,35 @@
+{
+  "name": "learninglab",
+  "version": "1.0.0",
+  "description": "A coding exercise, practice app",
+  "main": "app.js",
+  "scripts": {
+    "js-arrays": "mocha 'src/lab-javascript/arrays/*.test.js' --watch || true",
+    "test": "mocha 'src/**/*.test.js' || true",
+    "test:watch": "mocha 'src/**/*.test.js' --watch || true",
+    "test-html": "mocha 'src/lab-html/**/*.test.js' || true",
+    "test-html:watch": "mocha 'src/lab-html/**/*.test.js' --watch || true",
+    "test-html-asset-tags": "mocha 'src/lab-html/asset-tags/*.test.js' --watch || true",
+    "test-html-boilerplate": "mocha 'src/lab-html/boilerplate/*.test.js' --watch || true"
+  },
+  "keywords": [
+    "JavaScript"
+  ],
+  "author": "Elliot Reed",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElliotReed/javascript_lab.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ElliotReed/javascript_lab/issues"
+  },
+  "homepage": "https://github.com/ElliotReed/javascript_lab#readme",
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "chai-dom": "^1.11.0",
+    "jsdom": "^20.0.1",
+    "jsdom-global": "^3.0.2",
+    "mocha": "^10.0.0"
+  }
+}

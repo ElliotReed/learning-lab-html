@@ -1,0 +1,13 @@
+.blackboard {
+  width: 100%;
+  font-family: var(--fontFamilyBlackboard);
+  box-shadow: 0.25em 0.25em 0.5em rgba(0, 0, 0, 0.5), inset 2px 2px 0 rgba(225, 225, 225, 0.5),
+    inset -2px -2px 0 rgba(190, 190, 190, 0.753);
+  border-width: 0.5em;
+  border-style: solid;
+  border-image: linear-gradient(135deg, rgb(225, 225, 225), rgb(192, 192, 192)) 30;
+  background-color: rgba(0, 0, 0, 0.9);
+  padding: var(--padding);
+  color: rgba(255, 255, 255, 0.75);
+  text-shadow: 0 0 0.25rem rgba(255, 255, 255, 0.75);
+}

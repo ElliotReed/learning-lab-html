@@ -1,0 +1,28 @@
+{
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "expanded",
+      "extensionName": ".css",
+      "savePath": "/public/css"
+    },
+    {
+      "format": "compressed",
+      "extensionName": ".min.css",
+      "savePath": "/public/css"
+    },
+  ],
+  "liveSassCompile.settings.autoprefix": [
+    "> 1%",
+    "last 2 versions"
+  ],
+  "workbench.colorCustomizations": {
+    "statusBar.foreground": "#e6e0d0",
+    "statusBar.background": "#222222",
+    "statusBarItem.remoteBackground": "#ff4a4a",
+    "titleBar.activeForeground": "#e6e0d0",
+    "titleBar.activeBackground": "#ff4a4a",
+    "titleBar.inactiveForeground": "#e6e0d0",
+    "titleBar.inactiveBackground": "#ee3b3b",
+  },
+  "workbench.colorTheme": "One Dark Pro"
+}
